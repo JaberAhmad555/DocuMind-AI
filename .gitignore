@@ -1,0 +1,48 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Testing artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated vector databases
+intro-to-ai/
+intro-to-ai-local/
+chroma_db/
+chroma.sqlite3
+
+# Private documents
+uploads/
+*.pdf
+!Intro_to_AI_Transcript.pdf
+
+# Model files
+*.gguf
+*.safetensors
+*.bin
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
